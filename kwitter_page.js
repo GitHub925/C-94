@@ -43,7 +43,7 @@ hearts=message_data['heart'];
 heartid=firebase_message_id+"hearts"
 nametag="<div style='margin-top:30px; margin-bottom:30px;'<h3 id='name'>"+name+"<img src='tick.png' class='user_tick'></h4><br>";
 msgtag="<h4 class='message_h4'>"+message+"</h4><br>";
-liketag="<button class='btn btn-success' id="+firebase_message_id+" value="+like+" onclick='updateLike(this.id)'> <span class='glyphicon glyphicon-heart'>Hearts: "+like+"</span></button><hr></div>";
+liketag="<button class='btn btn-success' id="+firebase_message_id+" value="+like+" onclick='updateLike(this.id)'> <span class='glyphicon glyphicon-heart' style='margin-left: 10px;'>Hearts: "+like+"</span></button><hr></div>";
 row=nametag+msgtag+liketag;
 document.getElementById("output").innerHTML+=row;
 //End code
