@@ -90,3 +90,5 @@ function logOut(){
       window.location="index.html";
 }
 
+document.getElementById("room")innerHTML=roomname
+
