@@ -89,8 +89,3 @@ function logOut(){
       localStorage.removeItem("room name");
       window.location="index.html";
 }
-
-function displayName(){
- var room = "<h3 id='room' style='color: lightseagreen;'>"+roomname+"</h3>";
- document.getElementById("roomdiv").innerHTML = room;
-}
