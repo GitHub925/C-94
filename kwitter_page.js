@@ -92,5 +92,5 @@ function logOut(){
 
 function displayName(){
     
-document.getElementById("room")innerHTML=roomname;   
+document.getElementById("room")innerHTML= localStorage.getItem("room name");   
 }
