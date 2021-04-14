@@ -19,7 +19,7 @@
 
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body onload="dsplayName()">
+<body>
 
 <div class="container">
 	<button id="logout" class="glyphicon glyphicon-log-out btn btn-success" onclick="logOut()">Logout</button>
@@ -31,6 +31,9 @@
 			</sup>
 		</h1><br>
 		<h3 style="font-family: 'Crafty Girls'; color: lightseagreen" id="room">hi room name</h3><br>
+		<script>
+			document.getElementId("room").innerHTML = roomname
+		</script>
 		<div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
 	</center>
 </div>
