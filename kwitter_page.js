@@ -91,5 +91,6 @@ function logOut(){
 }
 
 function displayName(){
-document.getElementById("room")innerHTML= localStorage.getItem("room name");   
+ var room = "<h3 id='room' style='color: lightseagreen;'>"+roomname+"</h3>";
+ document.getElementById("roomdiv").innerHTML = room;
 }
